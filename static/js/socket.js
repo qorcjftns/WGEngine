@@ -5,6 +5,7 @@ $(function() {
 	var socket = io();
 	$('form').submit(function() {
 		socket.emit('CHAT_MESSAGE', $('#message-controller').val());
+		$('#message-controller').val('');
 		return false;
 	});
 	socket.on('CHAT_MESSAGE', function(msg) {
