@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/qorcjftns/WGEngine/issues"
   },
-  "homepage": "https://github.com/qorcjftns/WGEngine#readme"
+  "homepage": "https://github.com/qorcjftns/WGEngine#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  }
 }
