@@ -13,8 +13,7 @@ var io 		= require('socket.io')(http);
 app.get('/', function(Req, res) {
 	res.sendFile(__dirname + '/html/index.html');
 });
-app.use(express.static('js'));
-app.use(express.static('css'));
+app.use(express.static('public'));
 
 io.on('connection', function(socket) {
 	console.log('user connected');
