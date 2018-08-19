@@ -1,0 +1,24 @@
+{
+  "name": "wgengine",
+  "version": "0.0.1",
+  "description": "WGEngine",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qorcjftns/WGEngine.git"
+  },
+  "keywords": [
+    "nodejs",
+    "engine",
+    "wgengine"
+  ],
+  "author": "Kyle Baek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qorcjftns/WGEngine/issues"
+  },
+  "homepage": "https://github.com/qorcjftns/WGEngine#readme"
+}
