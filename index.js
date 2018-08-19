@@ -17,6 +17,9 @@ app.use('/static', express.static('static'));
 
 io.on('connection', function(socket) {
 	console.log('user connected');
+	socket.on('CHAT_MESSAGE', function(msg) {
+		io.emit('CHAT_MESSAGE', msg);
+	});
 });
 
 http.listen(PORT, function() {
