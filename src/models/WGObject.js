@@ -1,9 +1,10 @@
 'use strict';
 
+var WGPosition = require('../utils/WGPosition.js');
+
 var WGObject = function() {
 	this.name = "";
-	this.position.x = 0;
-	this.position.y = 0;
+	this.position = new WGPosition();
 };
 
 WGObject.prototype = {
